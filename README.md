@@ -17,6 +17,11 @@ react native app for image recognition (sample)
 
 ## 概要
 
+1. カメラ(Cameraボタン)、またはカメラロール(CamerRollボタン)からserverに送る画像を選択します。
+2. 選択した画像を(224, 224, 3)のサイズにリサイズします（中心を切り取る）
+3. Recognizeボタンでserverに画像をおくり、serverからの結果を待ちます。
+4. 受け取った結果を表示します。
+
 ## build
 
 * [expo.io](https://expo.io/)でBuildすることを想定しています。
