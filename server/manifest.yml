@@ -1,0 +1,10 @@
+applications:
+- name: {your app}
+  disk_quota: 1024M
+  memory: 128M
+  host: ikemen-regressor
+  domain: {your domain}
+  command: python main.py
+  path: .
+  instances: 1
+  buildpack: https://github.com/cloudfoundry/python-buildpack
