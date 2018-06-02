@@ -2,7 +2,7 @@ applications:
 - name: {your app}
   disk_quota: 1024M
   memory: 128M
-  host: ikemen-regressor
+  host: {your host}
   domain: {your domain}
   command: python main.py
   path: .
